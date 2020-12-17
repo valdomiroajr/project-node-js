@@ -1,5 +1,5 @@
 {
-  "name": "project-node-js",
+  "name": "project-nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valdomiroajr/project-node-js.git"
+    "url": "git+https://github.com/valdomiroajr/project-nodejs.git"
   },
   "author": "Valdomiro de Almeida Sampaio Junior",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valdomiroajr/project-node-js/issues"
+    "url": "https://github.com/valdomiroajr/project-nodejs/issues"
   },
-  "homepage": "https://github.com/valdomiroajr/project-node-js#readme",
+  "homepage": "https://github.com/valdomiroajr/project-nodejs#readme",
   "dependencies": {
     "express": "^4.17.1"
   },
