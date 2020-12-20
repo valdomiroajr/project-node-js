@@ -12,7 +12,7 @@ conexao.connect(erro => {
 
         Tabelas.init(conexao)
 
-        app.listen(3000, () => console.log('Servidor Aplicação rodando na porta 3000'));
+        app.listen(3001, () => console.log('Servidor Aplicação rodando na porta 3001'));
     }
 })
 
