@@ -5,6 +5,7 @@ class Tabelas {
         this.conexao = conexao;
         
         this.atendimento()
+        this.pet()
         
     }
 
@@ -18,6 +19,16 @@ class Tabelas {
                 observacoes text,
                 data datetime NOT NULL,
                 dataCriacao datetime NOT NULL,
+            PRIMARY KEY(id));`
+
+        this.conexao.query(sql)
+    }
+
+    pet() {
+        const sql = `CREATE TABLE IF NOT EXISTS Pets (
+                id int not NULL AUTO_INCREMENT,
+                nome varchar(50) NOT NULL,
+                imagem varchar(200) NOT NULL,
             PRIMARY KEY(id));`
 
         this.conexao.query(sql)
